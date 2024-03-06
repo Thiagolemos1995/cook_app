@@ -13,7 +13,8 @@ export const styles = StyleSheet.create({
     gap: 6,
   },
   image: {
-    
+    width: 18,
+    height: 18,
   },
   title:{
     fontSize: theme.fonts.size.body.sm,

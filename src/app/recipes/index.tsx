@@ -2,7 +2,7 @@ import { FlatList, View, Text } from 'react-native'
 import { styles } from './styles'
 import { MaterialIcons } from '@expo/vector-icons'
 import { router } from 'expo-router'
-import { Recipe } from '../components/Recipe'
+import { Recipe } from '../../components/Recipe'
 
 export default function Recipes() {
   return (

@@ -31,6 +31,7 @@ module.exports = {
     "rules": {
         "react/react-in-jsx-scope": "off", "indent": [ "error", 2 ],
         "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/no-confusing-void-expression": "off"
+        "@typescript-eslint/no-confusing-void-expression": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off"
     }
 }

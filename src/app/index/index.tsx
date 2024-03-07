@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/restrict-template-expressions */
 import { useEffect, useState } from "react";
 import { router } from "expo-router";
 
@@ -20,11 +21,11 @@ export default function Index() {
   }
 
   function handleSearch() {
-    router.navigate("/recipes")
+    router.navigate(`/recipes/${selected}`)
   }
 
   useEffect(() => {
-    void services.ingredients.findAll().then(setIngredients)
+    void services.ingredientes.findAll().then(setIngredients)
   }, [])
 
   return (

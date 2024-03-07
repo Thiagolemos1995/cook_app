@@ -26,7 +26,6 @@ export function Ingredients({
 
     handleSetSelected && handleSetSelected((state) => [...state, value])
   }
-
   return (
     <ScrollView
       contentContainerStyle={styles.container}

@@ -1,4 +1,4 @@
-# React Chat APP
+# Cook App
 
 Mobile Cook App, projeto de um app de receitas utilizando React Native.
 
